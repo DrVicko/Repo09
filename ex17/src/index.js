@@ -5,8 +5,12 @@ function inverseWhile () {
     var i = 5; 
 
     while (i < 6 && i >= 0 ) {
+        if (i !== 0) {
             fiveNumbers = fiveNumbers + i + ",";
-            i--;
+        } else {
+            fiveNumbers = fiveNumbers + i; 
+        }
+        i--;     
     }
     return fiveNumbers;
 
