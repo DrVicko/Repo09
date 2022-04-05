@@ -1,15 +1,19 @@
 // Only change code below this line
 function switchCase (letter) {
+
+    var animals = ""; 
+
     switch (letter) {
-        case "a" : return "antelope";
+        case "a" : animals = "antelope";
         break;
-        case "b" : return "bird";
+        case "b" : animals = "bird";
         break; 
-        case "c" : return "cat";
+        case "c" : animals = "cat";
         break;
-        default : return "stuff";
+        default : animals = "stuff";
         break; 
     }
+    return animals; 
 }
 switchCase(); 
 
