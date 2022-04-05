@@ -20,7 +20,6 @@ function comparisonToEqual (a) {
 comparisonToEqual();
 
 
-
 // Only change code above this line
 
 module.exports = comparisonToEqual;
